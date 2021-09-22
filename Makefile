@@ -40,4 +40,4 @@ piano: ${PIANO_OBJS} $(LIBTHREAD)
 	${CC} -c $<
 
 clean:
-	rm -f ${PIANO_OBJS} debug ndebug
+	rm -f ${PIANO_OBJS} piano debug ndebug
