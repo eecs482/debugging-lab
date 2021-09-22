@@ -2,7 +2,7 @@
 
 This repository contains some code to go along with the lab on debugging multithreaded programs.
 
-### `assert` and Structural Invariants
+## `assert` and Structural Invariants
 
 queue.cpp contains code for the example covered in lab on validating structural invariants for the
 threadsafe queue discussed in lecture. To build and execute the program with assertions enabled, 
@@ -10,13 +10,13 @@ run `make debug` and `./debug`. To build and execute with assertions disabled, r
 and `./ndebug`. Try commenting out different lines in `enqueue` and `dequeue` to introduce bugs
 and see if the assertions catch it.
 
-### Using `cout` to find a bug.
+## Using `cout` to find a bug.
 
 piano.cpp contains version 2 of the piano lab from last week, with some added bugs. Using print 
 statements around calls to `wait` and changes to shared state, identify which threads are improperly
 blocked and try to locate the bugs.
 
-### GDB Reference Guide
+## GDB Reference Guide
 
 Here you can find a quick reference guide for some particularly useful GDB functionality. Where
 relevant, the corresponding commands in LLDB for MacOS are included. Most of these commands have
@@ -26,7 +26,7 @@ for brevity as they can be found quickly online.
 For a more thorough list of useful debugger features and a mapping between GDB and LLDB commands,
 see [this page](https://lldb.llvm.org/use/map.html).
 
-### Execution
+#### Execution
 
 In GDB/LLDB, you can step through execution just as in a visual debugger. Once execution is paused,
 you can `step`, which is equivalent to "step into" in a visual debugger. You can also do `next`, which
