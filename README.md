@@ -140,3 +140,5 @@ In LLDB,
 ```
 (lldb) thread backtrace all
 ```
+
+**Note: The project 1 infrastructure does not support these commands. Using `cout` is likely a more effective method to debug project 1.**
