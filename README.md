@@ -14,7 +14,7 @@ and see if the assertions catch it.
 
 piano.cpp contains version 2 of the piano lab from last week, with some added bugs. Using print 
 statements around calls to `wait` and changes to shared state, identify which threads are improperly
-blocked and try to locate the bug.
+blocked and try to locate the bugs.
 
 ### GDB Reference Guide
 
