@@ -141,4 +141,4 @@ In LLDB,
 (lldb) thread backtrace all
 ```
 
-**Note: The project 1 infrastructure does not support these commands. Using `cout` is likely a more effective method to debug project 1.**
+**Note: The project 1 infrastructure does not support these commands for viewing threads. Using `cout` is likely a more effective method to inspect the state of different threads in project 1.**
