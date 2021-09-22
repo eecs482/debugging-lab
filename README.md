@@ -10,7 +10,7 @@ run `make debug` and `./debug`. To build and execute with assertions disabled, r
 and `./ndebug`. Try commenting out different lines in `enqueue` and `dequeue` to introduce bugs
 and see if the assertions catch it.
 
-## Using `cout` to find a bug.
+## Using `cout` to find bugs.
 
 piano.cpp contains version 2 of the piano lab from last week, with some added bugs. Using print 
 statements around calls to `wait` and changes to shared state, identify which threads are improperly
